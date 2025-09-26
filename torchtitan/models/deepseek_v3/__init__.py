@@ -44,7 +44,7 @@ deepseekv3_configs = {
             top_k=3,
             score_func="softmax",
             route_norm=True,
-            score_before_experts=False,
+            score_before_experts=False,,force_uniform_routing=True
         ),
         q_lora_rank=0,
         kv_lora_rank=512,
@@ -67,7 +67,7 @@ deepseekv3_configs = {
             top_k=3,
             score_func="softmax",
             route_norm=True,
-            score_before_experts=False,
+            score_before_experts=False,,force_uniform_routing=True
         ),
         q_lora_rank=0,
         kv_lora_rank=512,
@@ -92,7 +92,7 @@ deepseekv3_configs = {
             top_k=6,
             score_func="softmax",
             route_norm=True,
-            score_before_experts=False,
+            score_before_experts=False,,force_uniform_routing=True
         ),
         q_lora_rank=0,
         kv_lora_rank=512,
@@ -118,7 +118,7 @@ deepseekv3_configs = {
             score_func="softmax",
             route_norm=True,
             route_scale=16.0,
-            score_before_experts=False,
+            score_before_experts=False,,force_uniform_routing=True
         ),
         n_expert_groups=8,
         n_limited_groups=3,
@@ -145,7 +145,7 @@ deepseekv3_configs = {
             score_func="sigmoid",
             route_norm=True,
             route_scale=2.5,
-            score_before_experts=False,
+            score_before_experts=False,,force_uniform_routing=True
         ),
         n_expert_groups=8,
         n_limited_groups=4,
